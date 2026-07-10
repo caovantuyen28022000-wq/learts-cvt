@@ -96,3 +96,21 @@ ON CONFLICT (id) DO UPDATE SET
 INSERT INTO admins (id, username, password) VALUES
 (1, 'admin', '$2b$10$iUxYbOpeDVZs8WDBt1jZIuCEUZscdzTw5Kar4rX8XS7wJA0B.nlb2')
 ON CONFLICT (id) DO UPDATE SET password = EXCLUDED.password;
+
+-- 11. Create Users Table
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    username TEXT UNIQUE NOT NULL,
+    email TEXT UNIQUE NOT NULL,
+    password TEXT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+);
+
+-- 12. Seed Default User Account (user@example.com / admin123)
+INSERT INTO users (id, username, email, password) VALUES
+(1, 'user', 'user@example.com', '$2b$10$iUxYbOpeDVZs8WDBt1jZIuCEUZscdzTw5Kar4rX8XS7wJA0B.nlb2')
+ON CONFLICT (id) DO UPDATE SET
+    username = EXCLUDED.username,
+    email = EXCLUDED.email,
+    password = EXCLUDED.password;
+
