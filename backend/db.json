@@ -1,0 +1,303 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Boho Beard Mug",
+      "price": 39,
+      "image": "assets/images/product/s328/product-1.webp",
+      "description": "A classic ceramic mug with a beautiful boho beard printed style.",
+      "stock": 49,
+      "categoryId": 2
+    },
+    {
+      "id": 2,
+      "name": "Xe 3 bánh trang trí",
+      "price": 35,
+      "image": "assets/images/product/s328/product-2.webp",
+      "description": "A clean matte-finish gourd shaped ceramic vase for contemporary homes.",
+      "stock": 39,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Thớt gỗ óc chó",
+      "price": 9,
+      "image": "assets/images/product/s328/product-3.webp",
+      "description": "Charming set of wooden fish cut outs, perfect for beach house decor.",
+      "stock": 59,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Thớt gỗ",
+      "price": 45,
+      "image": "assets/images/product/s328/product-4.webp",
+      "description": "Minimalist matte finish ceramic pot for your indoor plants.",
+      "stock": 30,
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Lọ gốm",
+      "price": 60,
+      "image": "assets/images/product/s328/product-5.webp",
+      "description": "Cozy woven wool basket to keep your living room organized.",
+      "stock": 24,
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "name": "Clear Silicate Teapot",
+      "price": 140,
+      "image": "assets/images/product/s328/product-6.webp",
+      "description": "High-quality clear silicate glass teapot with heat-resistant handle.",
+      "stock": 15,
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Decorative Wall Plate",
+      "price": 55,
+      "image": "assets/images/product/s328/product-7.webp",
+      "description": "Hand-painted ceramic wall plate featuring modern art styles.",
+      "stock": 20,
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "Decorative Christmas Fox",
+      "price": 50,
+      "image": "assets/images/product/s328/product-8.webp",
+      "description": "A cute handcrafted wooden fox for holiday and Christmas decor.",
+      "stock": 10,
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "name": "Aluminum Equestrian",
+      "price": 100,
+      "image": "assets/images/product/s328/product-9.webp",
+      "description": "Polished aluminum horse sculpture, a perfect statement piece.",
+      "stock": 8,
+      "categoryId": 1
+    },
+    {
+      "id": 11,
+      "name": "Electric Egg Blender",
+      "price": 200,
+      "image": "assets/images/product/s328/product-11.webp",
+      "description": "Professional grade electric egg blender and cream mixer.",
+      "stock": 11,
+      "categoryId": 2
+    },
+    {
+      "id": 12,
+      "name": "Cape Cottage Playhouse",
+      "price": 35,
+      "image": "assets/images/product/s328/product-12.webp",
+      "description": "Charming miniature cottage playhouse toy for kids.",
+      "stock": 17,
+      "categoryId": 4
+    },
+    {
+      "id": 14,
+      "name": "Abstract Folded Pots",
+      "price": 50,
+      "image": "assets/images/product/s328/product-14.webp",
+      "description": "Unique folded design abstract ceramic pots set.",
+      "stock": 14,
+      "categoryId": 1
+    },
+    {
+      "id": 15,
+      "name": "Brush & Dustpan Set",
+      "price": 9,
+      "image": "assets/images/product/s328/product-15.webp",
+      "description": "Handheld brush and dustpan set with durable bristles.",
+      "stock": 45,
+      "categoryId": 2
+    },
+    {
+      "id": 17,
+      "name": "3D Attractive Pot",
+      "price": 90,
+      "image": "assets/images/product/s328/product-17.webp",
+      "description": "Innovative 3D patterned decorative clay pot.",
+      "stock": 22,
+      "categoryId": 1
+    },
+    {
+      "id": 25,
+      "name": "Antique Sewing Scissors",
+      "price": 12,
+      "image": "assets/images/product/s328/product-25.webp",
+      "description": "Ornate metal design vintage style sewing scissors.",
+      "stock": 35,
+      "categoryId": 5
+    },
+    {
+      "id": 30,
+      "name": "Adhesive Tape Dispenser",
+      "price": 15,
+      "image": "assets/images/product/s328/product-30.webp",
+      "description": "Modern wooden case adhesive tape dispenser for office desks.",
+      "stock": 50,
+      "categoryId": 3
+    },
+    {
+      "id": 31,
+      "name": "Bouncer Measuring Cup",
+      "price": 150,
+      "image": "assets/images/product/s328/product-31.webp",
+      "description": "Industrial grade glass bouncer measuring cup.",
+      "stock": 10,
+      "categoryId": 2
+    },
+    {
+      "id": 32,
+      "name": "Cleaning Dustpan & Brush",
+      "price": 38,
+      "image": "assets/images/product/s328/product-32.webp",
+      "description": "Long handle standing cleaning dustpan and sweep brush.",
+      "stock": 24,
+      "categoryId": 2
+    }
+  ],
+  "cart": [],
+  "coupon": null,
+  "orders": [
+    {
+      "id": "ORD-513646",
+      "customerName": "tuyen cao",
+      "customerPhone": "0321456789",
+      "customerAddress": "bac ninh, bac ninh, 160009",
+      "subtotal": 39,
+      "shipping": 10,
+      "discount": 0,
+      "total": 49,
+      "status": "Completed",
+      "coupon": null,
+      "createdAt": "2026-07-10T03:11:31.209Z",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Boho Beard Mug",
+          "price": 39,
+          "quantity": 1,
+          "subtotal": 39
+        }
+      ]
+    },
+    {
+      "id": "ORD-386611",
+      "customerName": "tuấn gene",
+      "customerPhone": "0321456789",
+      "customerAddress": "bac ninh, bac ninh, 160009",
+      "subtotal": 104,
+      "shipping": 0,
+      "discount": 0,
+      "total": 104,
+      "status": "Completed",
+      "coupon": null,
+      "createdAt": "2026-07-10T03:33:04.192Z",
+      "items": [
+        {
+          "productId": 2,
+          "name": "Xe 3 bánh trang trí",
+          "price": 35,
+          "quantity": 1,
+          "subtotal": 35
+        },
+        {
+          "productId": 3,
+          "name": "Thớt gỗ óc chó",
+          "price": 9,
+          "quantity": 1,
+          "subtotal": 9
+        },
+        {
+          "productId": 5,
+          "name": "Lọ gốm",
+          "price": 60,
+          "quantity": 1,
+          "subtotal": 60
+        }
+      ]
+    },
+    {
+      "id": "ORD-611338",
+      "customerName": "tu phan",
+      "customerPhone": "0963633122",
+      "customerAddress": "bac ninh, bac ninh, 160009",
+      "subtotal": 285,
+      "shipping": 0,
+      "discount": 0,
+      "total": 285,
+      "status": "Completed",
+      "coupon": null,
+      "createdAt": "2026-07-10T03:52:14.392Z",
+      "items": [
+        {
+          "productId": 12,
+          "name": "Cape Cottage Playhouse",
+          "price": 35,
+          "quantity": 1,
+          "subtotal": 35
+        },
+        {
+          "productId": 11,
+          "name": "Electric Egg Blender",
+          "price": 200,
+          "quantity": 1,
+          "subtotal": 200
+        },
+        {
+          "productId": 14,
+          "name": "Abstract Folded Pots",
+          "price": 50,
+          "quantity": 1,
+          "subtotal": 50
+        }
+      ]
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "$2b$10$iUxYbOpeDVZs8WDBt1jZIuCEUZscdzTw5Kar4rX8XS7wJA0B.nlb2",
+      "createdAt": "2026-07-10T02:44:50.397Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user",
+      "email": "user@example.com",
+      "password": "$2b$10$iUxYbOpeDVZs8WDBt1jZIuCEUZscdzTw5Kar4rX8XS7wJA0B.nlb2",
+      "createdAt": "2026-07-10T10:23:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Home Decor"
+    },
+    {
+      "id": 2,
+      "name": "Kitchen"
+    },
+    {
+      "id": 3,
+      "name": "Gift Ideas"
+    },
+    {
+      "id": 4,
+      "name": "Kids & Babies"
+    },
+    {
+      "id": 5,
+      "name": "Knitting & Sewing"
+    }
+  ]
+}
