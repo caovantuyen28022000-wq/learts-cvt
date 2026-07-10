@@ -106,6 +106,9 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
 
+ALTER TABLE users DISABLE ROW LEVEL SECURITY;
+
+
 -- 12. Seed Default User Account (user@example.com / admin123)
 INSERT INTO users (id, username, email, password) VALUES
 (1, 'user', 'user@example.com', '$2b$10$iUxYbOpeDVZs8WDBt1jZIuCEUZscdzTw5Kar4rX8XS7wJA0B.nlb2')
